@@ -5,7 +5,7 @@ class Triangle
  end 
  
  def kind
-   if (@side_1 <= 0) || (@side_2 <= 0) || (@side_3 <= 0)
+   if (@side_a <= 0) || (@side_b <= 0) || (@side_c <= 0)
       raise TriangleError
     end
    if @side_a == @side_b && @side_b == @side_c
