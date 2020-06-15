@@ -6,6 +6,6 @@ class Triangle
  
  def kind
    if side_a == side_b && side_b == side_c
-     kind = 
+     kind = equilateral
  end
 end
