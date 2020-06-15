@@ -19,7 +19,7 @@ class Triangle
   end
  class TriangleError < StandardError
   
- lend
+ end
 end
 
 
